@@ -1,0 +1,26 @@
+Regression Report
+=================
+
+Regression Report
+=================
+
+Dataset rows: 35344
+Unique sites: 30
+Full lots (<= 5% capacity): 1337
+
+MAE: 77.269
+RMSE: 153.211
+R2: 0.959
+
+Sample predictions:
+SystemCodeNumber  Capacity  hour  minute  day_of_week  actual_available  predicted_available
+ Others-CCCPS133      4675    16      32            4            2270.0          2450.760856
+     BHMBCCPST01       317    16      32            4             157.0           157.463111
+    Broad Street       690    16      32            4             198.0           219.786999
+     BHMBCCTHL01       387    16      32            4              38.0           106.341550
+Others-CCCPS135a      3883    16      32            4            1740.0          1866.908312
+     BHMBRCBRG02      1194    16      32            4             466.0           633.963664
+       NIA South       788    16      32            4             531.0           593.264877
+Others-CCCPS105a      2009    16      32            4             849.0           978.709317
+     BHMEURBRD01       470    16      32            4             141.0           143.369939
+   Others-CCCPS8      1322    16      32            4             706.0           706.336550

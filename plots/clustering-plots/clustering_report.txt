@@ -1,0 +1,25 @@
+Clustering Report
+=================
+
+Clustering Report
+=================
+
+Dataset rows: 35344
+Unique sites: 30
+Cluster count: 4
+Silhouette Score: 0.185
+
+--- Cluster Summary ---
+           Occupancy  AvailableSpots       hour  day_of_week  is_weekend
+cluster                                                                 
+0         349.958851      644.920562   8.762059     2.024739    0.021880
+1        1629.511276     1898.146907  12.274646     2.596327    0.187661
+2         517.811935      325.683922  13.410490     1.945344    0.000000
+3         373.535341      721.274285  11.726219     5.525891    1.000000
+
+Cluster counts:
+cluster
+0     8044
+1     6208
+2    13155
+3     7937

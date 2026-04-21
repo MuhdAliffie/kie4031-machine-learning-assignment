@@ -1,0 +1,34 @@
+Classification Report
+=====================
+
+Classification Report
+====================
+
+Dataset rows: 35344
+Unique sites: 30
+Full lots (<= 5% capacity): 1337
+
+Accuracy: 95.18%
+
+              precision    recall  f1-score   support
+
+           0       0.98      0.97      0.97      6741
+           1       0.48      0.51      0.49       328
+
+    accuracy                           0.95      7069
+   macro avg       0.73      0.74      0.73      7069
+weighted avg       0.95      0.95      0.95      7069
+
+
+Sample predictions:
+SystemCodeNumber  Capacity  actual_is_full  predicted_is_full  predicted_prob_full
+ Others-CCCPS133      4675               0                  0                0.000
+     BHMBCCPST01       317               0                  0                0.000
+    Broad Street       690               0                  0                0.000
+     BHMBCCTHL01       387               0                  0                0.040
+Others-CCCPS135a      3883               0                  0                0.000
+     BHMBRCBRG02      1194               0                  0                0.000
+       NIA South       788               0                  0                0.000
+Others-CCCPS105a      2009               0                  0                0.000
+     BHMEURBRD01       470               0                  0                0.005
+   Others-CCCPS8      1322               0                  0                0.000
